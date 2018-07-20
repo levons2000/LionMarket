@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_all"
+            android:icon="@drawable/ic_wb_cloudy_black_24dp"
+            android:title="All Games" />
+
+        <item
+            android:id="@+id/nav_pc"
+            android:icon="@drawable/ic_wb_cloudy_black_24dp"
+            android:title="PC Games" />
+        <item
+            android:id="@+id/nav_ps4"
+            android:icon="@drawable/ic_wb_cloudy_black_24dp"
+            android:title="PS4 Games" />
+        <item
+            android:id="@+id/nav_xbox"
+            android:icon="@drawable/ic_wb_cloudy_black_24dp"
+            android:title="XBox One Games" />
+
+
+    </group>
+
+    <item android:title="Your Favorites">
+        <menu>
+            <item
+                android:id="@+id/nav_liked"
+                android:icon="@drawable/ic_wb_cloudy_black_24dp"
+                android:title="Liked" />
+            <item
+                android:id="@+id/nav_buy"
+                android:icon="@drawable/ic_wb_cloudy_black_24dp"
+                android:title="Wont to Buy" />
+        </menu>
+    </item>
+
+</menu>
